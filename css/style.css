@@ -200,8 +200,9 @@ a:focus-visible {
 /* Сетка карточек (CSS Grid) */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-lg);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
 }
 
 /* Карточка товара (внутри — Flexbox) */
