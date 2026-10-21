@@ -19,8 +19,9 @@
           <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="product.html">Товар</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="category.html">Категории</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="index.html#advantages">Преимущества</a></li>
-          <li class="site-nav__item"><a class="site-nav__link" href="index.html#popular">Популярные товары</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html#faq">FAQ</a></li>
         </ul>
       </nav>
     </div>
@@ -34,7 +35,7 @@
     </nav>
 
     <article class="product-page">
-      <img class="product-page__image" src="images/tovar1.jpg"
+      <img class="product-page__image" src="images/tovar1.png"
            alt="Корона Burger King" width="480" height="360">
 
       <div class="product-page__info">
@@ -54,9 +55,7 @@
 
     <section class="section">
       <table class="product-table">
-        <caption class="product-table__caption">
-          Характеристики товара
-        </caption>
+        <caption class="product-table__caption">Характеристики товара</caption>
         <thead>
           <tr>
             <th class="product-table__head">Параметр</th>
@@ -64,44 +63,83 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="product-table__cell">Артикул</td>
-            <td class="product-table__cell">PR-001</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Категория</td>
-            <td class="product-table__cell">Популярные</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Цена</td>
-            <td class="product-table__cell">1000 руб.</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Материал</td>
-            <td class="product-table__cell">Комбинированный</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Цвет</td>
-            <td class="product-table__cell">Золотой</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Вес</td>
-            <td class="product-table__cell">200 г</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Наличие</td>
-            <td class="product-table__cell">В наличии</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Гарантия</td>
-            <td class="product-table__cell">24 месяцев</td>
-          </tr>
-          <tr>
-            <td class="product-table__cell">Доставка</td>
-            <td class="product-table__cell">По адресу покупателя</td>
-          </tr>
+          <tr><td class="product-table__cell">Артикул</td><td class="product-table__cell">PR-001</td></tr>
+          <tr><td class="product-table__cell">Категория</td><td class="product-table__cell">Популярные</td></tr>
+          <tr><td class="product-table__cell">Цена</td><td class="product-table__cell">1000 руб.</td></tr>
+          <tr><td class="product-table__cell">Материал</td><td class="product-table__cell">Комбинированный</td></tr>
+          <tr><td class="product-table__cell">Цвет</td><td class="product-table__cell">Золотой</td></tr>
+          <tr><td class="product-table__cell">Вес</td><td class="product-table__cell">500 г</td></tr>
+          <tr><td class="product-table__cell">Наличие</td><td class="product-table__cell">В наличии</td></tr>
+          <tr><td class="product-table__cell">Гарантия</td><td class="product-table__cell">12 месяцев</td></tr>
+          <tr><td class="product-table__cell">Доставка</td><td class="product-table__cell">По адресу покупателя</td></tr>
         </tbody>
       </table>
+    </section>
+
+    <section class="section" id="similar">
+      <h2 class="section__title">Похожие товары</h2>
+
+      <div class="products-grid">
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar2.png" alt="Тур в Египет">
+          <h3 class="product-card__title">Тур в Египет</h3>
+          <p class="product-card__price">Цена: 1500 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar3.png" alt="Телохранитель">
+          <h3 class="product-card__title">Телохранитель (цена за час)</h3>
+          <p class="product-card__price">Цена: 2000 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar4.png" alt="Logitech pro superlight">
+          <h3 class="product-card__title">Logitech pro superlight</h3>
+          <p class="product-card__price">Цена: 12 990 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar5.png" alt="Слоны оптом">
+          <h3 class="product-card__title">Слоны оптом</h3>
+          <p class="product-card__price">Цена: 1 000 000 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar6.png" alt="Квартира в центре Королёва">
+          <h3 class="product-card__title">Квартира в центре Королёва</h3>
+          <p class="product-card__price">Цена: 8 500 000 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar7.png" alt="Лэйс с соленым яйцом">
+          <h3 class="product-card__title">Лэйс с соленым яйцом</h3>
+          <p class="product-card__price">Цена: 120 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar8.png" alt="Курсы по программированию">
+          <h3 class="product-card__title">Курсы по программированию (цена за 30 мин)</h3>
+          <p class="product-card__price">Цена: 1500 руб. / 30 мин</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar9.png" alt="Шкаф-купе трёхдверный Гранд-Империал">
+          <h3 class="product-card__title">
+            Шкаф-купе трёхдверный «Гранд-Империал Люкс Премиум Плюс Макси» с зеркалом,
+            встроенной LED-подсветкой, доводчиками, антресолью, системой антискольжения
+            и шумоизоляцией для спальни, гостиной и кабинета
+          </h3>
+          <p class="product-card__price">Цена: 45 990 руб.</p>
+          <a class="button button--primary product-card__button" href="product.html">Подробнее</a>
+        </article>
+      </div>
     </section>
 
     <section class="section reviews" id="reviews">
@@ -109,55 +147,31 @@
 
       <article class="review">
         <div class="review__header">
-          <h3 class="review__author">Джеффри</h3>
-          <span class="review__rating" aria-label="Оценка 5 из 5">
-            ★★★★★
-          </span>
+          <h3 class="review__author">Александр</h3>
+          <span class="review__rating" aria-label="Оценка 5 из 5">★★★★★</span>
         </div>
-        <p class="review__date">03 октября 2026</p>
-        <p class="review__text">
-          Классная корона. Купил детям, покупкой довольны!
-        </p>
+        <p class="review__date">15 октября 2026</p>
+        <p class="review__text">Хороший товар. Описание понятное, покупкой доволен.</p>
       </article>
 
       <article class="review">
         <div class="review__header">
-          <h3 class="review__author">Шон Комбс</h3>
-          <span class="review__rating" aria-label="Оценка 4 из 5">
-            ★★★★☆
-          </span>
+          <h3 class="review__author">Мария</h3>
+          <span class="review__rating" aria-label="Оценка 4 из 5">★★★★☆</span>
         </div>
-        <p class="review__date">12 октября 2026</p>
-        <p class="review__text">
-          Купил к моей долгожданной поездке. Все понравилось
-        </p>
+        <p class="review__date">18 октября 2026</p>
+        <p class="review__text">Товар соответствует описанию. Всё устроило.</p>
       </article>
 
       <div class="review-form">
         <h3>Оставить отзыв</h3>
 
         <form action="#" method="get">
-          <label class="review-form__label" for="review-name">
-            Ваше имя
-          </label>
-          <input
-            class="review-form__input"
-            id="review-name"
-            name="name"
-            type="text"
-            placeholder="Введите имя"
-            required
-          >
+          <label class="review-form__label" for="review-name">Ваше имя</label>
+          <input class="review-form__input" id="review-name" name="name" type="text" placeholder="Введите имя" required>
 
-          <label class="review-form__label" for="review-rating">
-            Оценка
-          </label>
-          <select
-            class="review-form__input"
-            id="review-rating"
-            name="rating"
-            required
-          >
+          <label class="review-form__label" for="review-rating">Оценка</label>
+          <select class="review-form__input" id="review-rating" name="rating" required>
             <option value="5">5 — Отлично</option>
             <option value="4">4 — Хорошо</option>
             <option value="3">3 — Нормально</option>
@@ -165,21 +179,10 @@
             <option value="1">1 — Очень плохо</option>
           </select>
 
-          <label class="review-form__label" for="review-text">
-            Текст отзыва
-          </label>
-          <textarea
-            class="review-form__input"
-            id="review-text"
-            name="review"
-            rows="4"
-            placeholder="Напишите свой отзыв"
-            required
-          ></textarea>
+          <label class="review-form__label" for="review-text">Текст отзыва</label>
+          <textarea class="review-form__input" id="review-text" name="review" rows="4" placeholder="Напишите свой отзыв" required></textarea>
 
-          <button class="button button--primary" type="submit">
-            Отправить отзыв
-          </button>
+          <button class="button button--primary" type="submit">Отправить отзыв</button>
         </form>
       </div>
     </section>

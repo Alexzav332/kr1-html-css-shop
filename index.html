@@ -20,8 +20,10 @@
           <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="category.html">Категории</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="index.html#advantages">Преимущества</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="index.html#popular">Популярные товары</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html#faq">FAQ</a></li>
         </ul>
       </nav>
     </div>
@@ -61,47 +63,87 @@
       <div class="products-grid">
         <article class="product-card product-card--featured">
           <span class="product-card__badge">Хит</span>
-          <img
-            class="product-card__image"
-            src="images/tovar1.jpg"
-            alt="Корона Burger King"
-          >
+          <img class="product-card__image" src="images/tovar1.png" alt="Корона Burger King">
           <h3 class="product-card__title">Корона Burger King</h3>
           <p class="product-card__description">Стильная корона, дающая бесконечную ауру и бафф к красноречию.</p>
           <p class="product-card__price">Цена: 1000 руб.</p>
-          <button class="button button--primary product-card__button" type="button" data-product="Корона Burger King">
-            Заказать
-          </button>
+          <button class="button button--primary product-card__button" type="button" data-product="Корона Burger King">Заказать</button>
         </article>
 
         <article class="product-card product-card--discount">
           <span class="product-card__badge product-card__badge--discount">Скидка</span>
-          <img
-            class="product-card__image"
-            src="images/tovar2.jpg"
-            alt="Тур в Египет"
-          >
+          <img class="product-card__image" src="images/tovar2.png" alt="Тур в Египет">
           <h3 class="product-card__title">Тур в Египет</h3>
           <p class="product-card__description">Поездка в Египет с профессиональным гидом.</p>
           <p class="product-card__price">Цена: 1500 руб.</p>
-          <button class="button button--primary product-card__button" type="button" data-product="Тур в Египет">
-            Заказать
-          </button>
+          <button class="button button--primary product-card__button" type="button" data-product="Тур в Египет">Заказать</button>
         </article>
 
         <article class="product-card">
           <span class="product-card__badge product-card__badge--new">Новинка</span>
-          <img
-            class="product-card__image"
-            src="images/tovar3.jpg"
-            alt="Телохранитель"
-          >
+          <img class="product-card__image" src="images/tovar3.png" alt="Телохранитель">
           <h3 class="product-card__title">Телохранитель (цена за час)</h3>
           <p class="product-card__description">Услуги опытного телохранителя.</p>
           <p class="product-card__price">Цена: 2000 руб.</p>
-          <button class="button button--primary product-card__button" type="button" data-product="Телохранитель (цена за час)">
-            Заказать
-          </button>
+          <button class="button button--primary product-card__button" type="button" data-product="Телохранитель (цена за час)">Заказать</button>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar4.png" alt="Logitech pro superlight">
+          <h3 class="product-card__title">Logitech pro superlight</h3>
+          <p class="product-card__description">Беспроводная мышь для киберспорта: сверхлёгкий корпус и точный сенсор.</p>
+          <p class="product-card__price">Цена: 12 990 руб.</p>
+          <button class="button button--primary product-card__button" type="button" data-product="Logitech pro superlight">Заказать</button>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar5.png" alt="Слоны оптом">
+          <h3 class="product-card__title">Слоны оптом</h3>
+          <p class="product-card__description">Поставка слонов крупным оптом. Доставка обсуждается индивидуально.</p>
+          <p class="product-card__price">Цена: 1 000 000 руб.</p>
+          <button class="button button--primary product-card__button" type="button" data-product="Слоны оптом">Заказать</button>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar6.png" alt="Квартира в центре Королёва">
+          <h3 class="product-card__title">Квартира в центре Королёва</h3>
+          <p class="product-card__description">Просторная квартира в центре города.</p>
+          <p class="product-card__price">Цена: 50 руб.</p>
+          <button class="button button--primary product-card__button" type="button" data-product="Квартира в центре Королёва">Заказать</button>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar7.png" alt="Лэйс с соленым яйцом">
+          <h3 class="product-card__title">Лэйс с соленым яйцом</h3>
+          <p class="product-card__description">Чипсы с необычным вкусом солёного яйца.</p>
+          <p class="product-card__price">Цена: 120 руб.</p>
+          <button class="button button--primary product-card__button" type="button" data-product="Лэйс с соленым яйцом">Заказать</button>
+        </article>
+
+        <article class="product-card">
+          <img class="product-card__image" src="images/tovar8.png" alt="Курсы по программированию">
+          <h3 class="product-card__title">Курсы по программированию (цена за 30 мин)</h3>
+          <p class="product-card__description">Индивидуальные занятия по программированию с преподавателем.</p>
+          <p class="product-card__price">Цена: 1500 руб. / 30 мин</p>
+          <button class="button button--primary product-card__button" type="button" data-product="Курсы по программированию">Заказать</button>
+        </article>
+
+        <article class="product-card product-card--featured">
+          <span class="product-card__badge">Хит</span>
+          <img class="product-card__image" src="images/tovar9.png" alt="Шкаф-купе трёхдверный Гранд-Империал">
+          <h3 class="product-card__title">
+            Шкаф-купе трёхдверный «Гранд-Империал Люкс Премиум Плюс Макси» с зеркалом,
+            встроенной LED-подсветкой, доводчиками, антресолью, системой антискольжения
+            и шумоизоляцией для спальни, гостиной и кабинета
+          </h3>
+          <p class="product-card__description">
+            Вместительный шкаф-купе с зеркалом, LED-подсветкой, доводчиками,
+            антресолью и шумоизоляцией.
+          </p>
+          <p class="product-card__price">Цена: 45 990 руб.</p>
+          <button class="button button--primary product-card__button" type="button" data-product="Шкаф-купе трёхдверный «Гранд-Империал Люкс Премиум Плюс Макси» с зеркалом,
+    встроенной LED-подсветкой, доводчиками, антресолью, системой антискольжения
+    и шумоизоляцией для спальни, гостиной и кабинета">Заказать</button>
         </article>
       </div>
     </section>
@@ -112,12 +154,27 @@
       <div class="faq">
         <details class="faq__item">
           <summary class="faq__question">Как оформить заявку?</summary>
-          <p class="faq__answer">Нажмите «Заказать» у товара или откройте страницу «Заявка» и заполните форму.</p>
+          <p class="faq__answer">Нажмите «Заказать» у товара на главной странице или откройте раздел «Заявка» и заполните форму. Выбранный товар подставится автоматически.</p>
         </details>
 
         <details class="faq__item">
           <summary class="faq__question">Как быстро вам ответят?</summary>
-          <p class="faq__answer">Это учебный проект, поэтому заявки никуда не отправляются.</p>
+          <p class="faq__answer">Это учебный проект, поэтому заявки никуда не отправляются. В реальном магазине мы бы отвечали в течение 1 рабочего дня.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Можно ли заказать несколько товаров сразу?</summary>
+          <p class="faq__answer">Да. Оформите отдельную заявку на каждый товар или укажите в комментарии, какие ещё позиции вас интересуют.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Есть ли доставка?</summary>
+          <p class="faq__answer">В учебном проекте доставка не подключена. В форме заявки можно выбрать тему «Доставка» — так вы увидите, как это будет работать в реальном магазине.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Что делать, если товара нет в наличии?</summary>
+          <p class="faq__answer">Оставьте заявку с темой «Консультация» и укажите товар в комментарии — мы сообщим, когда позиция появится снова.</p>
         </details>
       </div>
     </section>
