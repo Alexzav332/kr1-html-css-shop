@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Категории товаров интернет-магазина.">
+  <title>Категории товаров — ShopProject</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">ShopProject</a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link site-nav__link--active"
+               href="category.html">Категории</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="product.html">Товар</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a class="breadcrumbs__link" href="index.html">Главная</a>
+      <span class="breadcrumbs__current">Категории</span>
+    </nav>
+
+    <section class="section">
+      <h1 class="section__title">Категории товаров</h1>
+      <p>Выберите интересующую вас категорию.</p>
+
+      <div class="category-grid">
+        <article class="category-card">
+          <h2 class="category-card__title">Все товары</h2>
+          <p class="category-card__text">
+            Полный список товаров нашего магазина.
+          </p>
+          <a class="button button--primary"
+             href="catalog.html">Открыть каталог</a>
+        </article>
+
+        <article class="category-card">
+          <h2 class="category-card__title">Популярные</h2>
+          <p class="category-card__text">
+            Товары, отмеченные как популярные.
+          </p>
+          <a class="button button--primary"
+             href="catalog.html">Смотреть товары</a>
+        </article>
+
+        <article class="category-card">
+          <h2 class="category-card__title">Новинки</h2>
+          <p class="category-card__text">
+            Новые товары в каталоге.
+          </p>
+          <a class="button button--primary"
+             href="catalog.html">Смотреть новинки</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__text">
+        &copy; 2026 Учебный проект. Все права защищены.
+      </p>
+      <p class="site-footer__text">
+        Дисциплина: Фронтенд и бэкенд разработка
+      </p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top">Наверх</a>
+</body>
+</html>
