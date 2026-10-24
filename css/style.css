@@ -688,13 +688,20 @@ header {
   position: fixed;
   right: var(--space-md);
   bottom: var(--space-md);
-  padding: var(--space-sm) var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  font-size: 22px;
+  line-height: 1;
   color: var(--color-white);
   background-color: var(--color-primary);
   text-decoration: none;
-  border-radius: var(--radius-sm);
+  border-radius: 50%;      /* круглая кнопка */
   opacity: 0.85;
   z-index: 20;
+  transition: opacity 0.2s, background-color 0.2s;
 }
 
 .to-top:hover {
