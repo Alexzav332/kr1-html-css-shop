@@ -378,6 +378,13 @@ header {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background-color: var(--color-surface);
+
+  /* Закрепление при прокрутке */
+  position: sticky;
+  top: 80px;              /* отступ от верха — под высоту шапки */
+  align-self: start;      /* чтобы блок не растягивался на всю высоту колонки */
+  max-height: calc(100vh - 100px); /* чтобы фильтр не вылезал за экран */
+  overflow-y: auto;       /* если фильтров много — внутренняя прокрутка */
 }
 
 .catalog-products {
