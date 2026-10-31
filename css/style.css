@@ -754,3 +754,15 @@ header {
     font-size: 14px;
   }
 }
+/* Кнопка «Позвонить» рядом с телефоном */
+.contacts-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.contacts-list__button {
+  padding: 4px 12px;
+  font-size: 14px;
+}
